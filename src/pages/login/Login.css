@@ -1,0 +1,10 @@
+.stack {
+    display: 'flex';
+    background: #c6a7a717;
+    min-width: 80vw;
+    min-height: 80vh;
+    padding: 24px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+}

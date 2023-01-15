@@ -1,0 +1,61 @@
+{
+    "name": "billing-app",
+    "author": "Erik Leibner <erik.leibner@gmail.com>",
+    "version": "1.4.6",
+    "dependencies": {
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "@mui/icons-material": "^5.8.4",
+        "@mui/material": "^5.10.14",
+        "@mui/x-date-pickers": "^5.0.12",
+        "@react-pdf/renderer": "^3.0.1",
+        "@tanstack/react-query": "^4.16.1",
+        "axios": "^0.27.2",
+        "dayjs": "^1.11.7",
+        "dotenv": "^16.0.3",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-hook-form": "^7.39.4",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "^5.0.1",
+        "recharts": "^2.2.0",
+        "typescript": "^4.7.4",
+        "web-vitals": "^2.1.4"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^12.0.0",
+        "@testing-library/react-hooks": "^8.0.1",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.11.45",
+        "@types/react": "^17.0.39",
+        "@types/react-dom": "^17.0.11"
+    },
+    "scripts": {
+        "set:env": "cross-env REACT_APP_NAME=$npm_package_name REACT_APP_VERSION=$npm_package_version",
+        "start": " npm run set:env react-scripts start",
+        "build": "npm run set:env react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
