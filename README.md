@@ -1,6 +1,6 @@
-## Billing App
+## Billing Application for managing invoices
 
-Web based mobile full stack Billing application in React.js, TypeScript, Node.js, Express.js, React query, Axios, Jest, Postgres, MaterialUI, React Hook Form, React Hooks, Day.js
+Web based mobile full stack Billing application in React.js, TypeScript, Node.js, Express.js, React query, Axios, Jest, Postgres, MaterialUI, React Hook Form, React Hooks, Day.js, Google OAuth 2.0
 
 DEMO: [Demo link, Click here!](https://demo-billing-app.leibner.ch/)
 
